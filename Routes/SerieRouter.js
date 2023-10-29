@@ -9,7 +9,7 @@ SerieRouter.get("/", (req,res)=>{
 })
 
 SerieRouter.get("/Hola", (req,res)=>{
-    res._write("Hola mundo")
+    return "Estoy en el nuevo mundo de Cloud computing desde la UTS"
 })
 
 SerieRouter.post("/", (req,res)=>{
